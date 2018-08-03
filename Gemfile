@@ -5,6 +5,8 @@ ruby '2.5.1'
 
 # Environment variables
 gem 'dotenv-rails', groups: [:development, :test]
+# Authentication
+gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use postgresql as the database for Active Record
